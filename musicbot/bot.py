@@ -1843,20 +1843,20 @@ Made By Fsxstreamer123"""
     async def cmd_invite(self, channel, server, author):
         if server.id == "273126432337821696":
             if author.id == "220568440161697792":
-                return Response("Fsxstreamer123, You really houldnt need this but okay:")
-                return Response("https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8")
+                return Response("""Fsxstreamer123, You really shouldnt need this but okay:
+                https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8""")
             else:
-                return Response("Okay here is the link to add the bot:")
-                return Response("https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8")
+                return Response("""Okay here is the link to add the bot:
+                https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8""")
         else:
             if author.id == "220568440161697792":
-                return Response("Fsxstreamer123, You own  me but i will give you the link anyway:")
-                return Response("https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8")
+                return Response("""Fsxstreamer123, You own  me but i will give you the link anyway:
+                https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8""")
             else:
-                return Response("If You wish to add the bot use this link:")
-                return Response("https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8")
-                return Response("If you wish to join our mins server, the link is here:")
-                return Response("https://discord.gg/Fx7yd5X")
+                return Response("""If You wish to add the bot use this link:
+                https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8
+                If you wish to join our mins server, the link is here:
+                https://discord.gg/Fx7yd5X""")
 
 
     async def cmd_perms(self, author, channel, server, permissions):
