@@ -1840,7 +1840,7 @@ Made By Fsxstreamer123"""
 
         return Response(":mailbox_with_mail:", delete_after=20)
 
-    async def cmd_invte(self, channel, server, author):
+    async def cmd_invite(self, channel, server, author):
         if server.id == "273126432337821696":
             if author.id == "220568440161697792":
                 return Response("Fsxstreamer123, You really houldnt need this but okay:")
