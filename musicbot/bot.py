@@ -1857,6 +1857,12 @@ Made By Fsxstreamer123"""
                 https://discordapp.com/oauth2/authorize?client_id=268779676288286722&scope=bot&permissions=8
                 If you wish to join our mins server, the link is here:
                 https://discord.gg/Fx7yd5X""")
+            
+            
+            async def cmd_axiba(self, channel, server, author):
+        return response ("""Axiba is a low poly based rpg/survival game made by my friend PanicHD 
+        if you would like to check it out or have any questions please join the discord server: https://discord.gg/hrg4kFS""")
+
 
 
     async def cmd_perms(self, author, channel, server, permissions):
